@@ -1,0 +1,15 @@
+[package]
+name = "bolo"
+version = "0.1.0"
+edition = "2024"
+description = "A tiny Rust implementation of the classic echo command"
+authors = ["Fahim Ahmed <fahimaloy@gmail.com>"]
+repository = "https://github.com/fahimaloy/bolo"
+keywords = ["cli", "echo", "utility", "posix"]
+readme = "README.md"
+
+[[bin]]
+name = "bolo"
+path = "src/main.rs"
+
+[dependencies]
